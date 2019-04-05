@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailManager.DataManager", "RetailManager.DataManager\RetailManager.DataManager.csproj", "{947E0C82-B1A0-429B-8B76-DA3DC2AAD185}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RetailManager.Data", "RetailManager.Data\RetailManager.Data.sqlproj", "{5F608BB6-2D16-42F0-8127-262696FAC005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailManager.DesktopUI", "RetailManager.DesktopUI\RetailManager.DesktopUI.csproj", "{DC27CF53-B9B0-40CF-A45C-30EF8513E402}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{947E0C82-B1A0-429B-8B76-DA3DC2AAD185}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{947E0C82-B1A0-429B-8B76-DA3DC2AAD185}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{947E0C82-B1A0-429B-8B76-DA3DC2AAD185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F608BB6-2D16-42F0-8127-262696FAC005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F608BB6-2D16-42F0-8127-262696FAC005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F608BB6-2D16-42F0-8127-262696FAC005}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5F608BB6-2D16-42F0-8127-262696FAC005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F608BB6-2D16-42F0-8127-262696FAC005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F608BB6-2D16-42F0-8127-262696FAC005}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DC27CF53-B9B0-40CF-A45C-30EF8513E402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC27CF53-B9B0-40CF-A45C-30EF8513E402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC27CF53-B9B0-40CF-A45C-30EF8513E402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC27CF53-B9B0-40CF-A45C-30EF8513E402}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
